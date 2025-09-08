@@ -83,6 +83,7 @@
     "eslint-plugin-prettier": "^5.5.4"
   },
   "scripts": {
+    "setup": "bash ../setup.sh",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write ."
   },
